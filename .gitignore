@@ -1,0 +1,6 @@
+.venv/
+streaming_project.db
+streaming.db
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

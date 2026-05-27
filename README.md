@@ -30,3 +30,10 @@ A key challenge during the project was handling data quality issues:
 ├── main.ipynb               # Jupyter Notebook with full pipeline and code
 ├── .gitignore               # Excludes database and raw data files
 └── README.md                # Project documentation
+
+
+How to Run the Project
+1. Clone the repository: [https://github.com/tu-usuario/cancellations-streaming-service.git](https://github.com/tu-usuario/cancellations-streaming-service.git)
+2. Install dependencies: pip install pandas textblob matplotlib requests beautifulsoup4
+python -m textblob.download_corpora
+3. Run main.ipynb sequentially. The pipeline automatically creates the local SQLite database (streaming_project.db) during execution.
